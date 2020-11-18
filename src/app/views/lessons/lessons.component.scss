@@ -92,7 +92,7 @@
 
   height: 500px;
   font-family: "Buda";
- 
+ margin-bottom: 8%;
 
 }
 
@@ -100,6 +100,58 @@
 
 
 
+
+
+
+.espacio{
+    height: 80px;
+}
+
+
+  
+.columnas{
+    border: 2px solid  rgb(8, 177, 154); 
+
+}  
+
+.flecha{
+  
+  margin-left: -7%;
+  margin-top: 5%;
+  margin-bottom: -5%;
+  display: flex;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIAS:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 
 
 
@@ -129,6 +181,14 @@
     height: 160px;
   
   }
+
+  .flecha{
+  
+    margin-left: 5%;
+    margin-bottom: 5%;
+   
+  }
+
 }
 @media screen and (max-width:769px){
   .cardfix {
@@ -143,14 +203,3 @@
     width: 50%;
   }
 }
-
-.espacio{
-    height: 80px;
-}
-
-
-  
-.columnas{
-    border: 2px solid  rgb(8, 177, 154); 
-
-}  
