@@ -1,1 +1,55 @@
-<p>form works!</p>
+<p class="espacio"></p>
+<div class="container row">
+    
+    <div class="col-md-6 ">
+        <h1>Clases presenciales</h1>
+        <form>
+            <div class="form-group">
+                <label for="nombre">Nombre(s)</label>
+                <input id="nombre" class="form-control" type="text" placeholder="Nombre..">
+            </div>
+            <div class="form-group">
+                <label for="apellido">Apellido(s)</label>
+                <input id="apellido" class="form-control" type="text" placeholder="Nombre..">
+            </div>
+            <div class="form-group ">
+                <label for="sexo">Sexo</label>
+                <select class="form-control col-md-5 " id="sexo" placeholder="Sexo" >
+                    <option>...</option>
+                    <option>Masculino</option>
+                    <option>Femenino</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="numero">Numero telefonico</label>
+                <input id="numero" class="form-control" type="number" placeholder="">
+            </div>
+            <div class="form-group">
+
+            </div>
+            <div class="form-group">
+
+            </div>
+            <div class="form-group">
+
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+         
+            <div class="form-group">
+                <label for="asunto">Asunto</label>
+                <textarea class="form-control" id="asunto" rows="3"></textarea>
+            </div>
+        </form>
+
+    </div>
+    <div class="col-md-6">
+        <h1>Ubicacion</h1>
+        <label for="asunto">Codigo postal</label>
+        
+        <input matInput placeholder="Ingresa tu código postal" formControlName="cp" [OnlyNumber]="true" maxlength="5">                 
+    </div>
+
+</div>
