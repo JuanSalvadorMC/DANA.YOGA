@@ -14,15 +14,19 @@ import { PostpartoComponent } from './views/list/postparto/postparto.component';
 import { YogaEmpresarialComponent } from './views/list/yoga-empresarial/yoga-empresarial.component';
 import { PrenatalComponent } from './views/list/prenatal/prenatal.component';
 import { KidsComponent } from './views/list/kids/kids.component';
+import { ContactComponent } from './views/contact/contact.component';
+import { MembershipComponent } from './views/membership/membership.component';
 
 import { ListComponent } from './views/list/list.component';
 
 export const ROUTES: Routes = [
     {path:'home', component: HomeComponent},
   /*   {path:'meditacion', component: MeditacionComponent}, */
-    {path:'lessons', component: LessonsComponent},
+    {path:'lessons/:vista', component: LessonsComponent},
     {path:'lessons-form', component: FormComponent},
 
+    {path:'contact', component: ContactComponent},
+    {path:'membership', component: MembershipComponent},
     {path:'blog', component: BlogComponent},
     {path:'shop', component: ShopComponent},
     {path:'hatha-yoga', component: HathaYogaComponent},

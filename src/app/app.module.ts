@@ -25,6 +25,8 @@ import { KidsComponent } from './views/list/kids/kids.component';
 
 import { ListComponent } from './views/list/list.component';
 import { BanosComponent } from './views/list/banos/banos.component';
+import { ContactComponent } from './views/contact/contact.component';
+import { MembershipComponent } from './views/membership/membership.component';
 
 
 @NgModule({
@@ -47,7 +49,12 @@ import { BanosComponent } from './views/list/banos/banos.component';
  
     ListComponent,
  
-    BanosComponent
+    BanosComponent,
+ 
+    ContactComponent,
+ 
+    
+    MembershipComponent
   ],
   imports: [
     BrowserModule,

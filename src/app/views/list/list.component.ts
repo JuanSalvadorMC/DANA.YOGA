@@ -9,9 +9,9 @@ import { ActivatedRoute } from '@angular/router';
 export class ListComponent implements OnInit {
 
   vista: any;
-  seccion: any;
+  
 
-  constructor(private activatedRoute: ActivatedRoute, private actRoute: ActivatedRoute,) { }
+  constructor(private activatedRoute: ActivatedRoute, ) { }
 
   ngOnInit(): void {
 
@@ -20,9 +20,6 @@ export class ListComponent implements OnInit {
       console.log(this.vista);      
        this.enforcarSeccion(this.vista); 
     })
-
-
-   
   }
 
   enforcarSeccion(sec) {

@@ -1,2 +1,17 @@
 
-  
+  .efect{
+    transition: 1s;
+ margin-top: 40px !important;
+
+      width: 30%;
+      height: 10%;
+  }
+  .efect:hover{
+      transition: 1s;
+    margin-top: 20px !important;
+   
+         width: 60%;
+         height: 10%;
+     }
+
+     

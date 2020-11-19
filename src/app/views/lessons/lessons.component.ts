@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-lessons',
@@ -7,9 +8,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LessonsComponent implements OnInit {
 
-  constructor() { }
+  vista: any;
+  
+  constructor(private activatedRoute: ActivatedRoute,) { }
 
   ngOnInit(): void {
+    this.activatedRoute.params.subscribe(resp => {
+      this.vista = resp.vista
+      console.log(this.vista);      
+       this.enforcarSeccion(this.vista); 
+    })
   }
 
+  enforcarSeccion(sec) {
+     if (sec) { document.getElementById("vista").scrollIntoView();  }
+  }
 }

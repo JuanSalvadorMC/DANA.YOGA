@@ -6,6 +6,8 @@
 
 <app-kids *ngIf="vista=='kids'"></app-kids>
 
+<app-banos *ngIf="vista=='banos'"></app-banos>
+
 <app-meditacion *ngIf="vista=='meditacion'"></app-meditacion>
 
 <app-postparto *ngIf="vista=='posparto'"></app-postparto>
@@ -15,21 +17,24 @@
 <app-yoga-empresarial *ngIf="vista=='yoga-empresarial'"></app-yoga-empresarial>
 
 
-<section class=" center" id="vista" style=" margin-bottom: 20%;">
+
+
+<section class=" center " style="margin-bottom: 20%;">
        
     <div class="card-list" style=" width: 90% !important;">
        
         <div class="row">
             <div class="col-md-3 cardfix2" >
-                <div routerLink='/hatha-yoga' class="interCard"><img class="img-fluid cardfix mb-lg-0"
+                <div [routerLink]="['/list','hatha']"  class="interCard"><img class="img-fluid cardfix mb-lg-0"
                         src="../../../assets/img/catalogo-yoga/hatayoga.jpg" alt="" />
                     <div class="txt-img">
-                        <p class="txtp">Hatha yoga </p>
+                        <p class="txtp">Hatha Yoga </p>
                     </div>
                 </div>
             </div>
+           
             <div class="col-md-3 cardfix2" style="">
-                <div class="interCard"><img class="img-fluid cardfix mb-lg-0"
+                <div [routerLink]="['/list','vinyasa']" class="interCard"><img class="img-fluid cardfix mb-lg-0"
                         src="../../../assets/img/catalogo-yoga/Hathayoga real.jpg" alt="" />
                     <div class="txt-img">
                         <p class="txtp">Vinyasa Yoga </p>
@@ -37,7 +42,7 @@
                 </div>
             </div>
             <div class="col-md-3 cardfix2" style="">
-                <div class="interCard"><img class="img-fluid cardfix mb-lg-0"
+                <div [routerLink]="['/list','meditacion']" class="interCard"><img class="img-fluid cardfix mb-lg-0"
                         src="../../../assets/img/catalogo-yoga/meditacion.jpg" alt="" />
                     <div class="txt-img">
                         <p class="txtp">Meditación </p>
@@ -45,23 +50,23 @@
                 </div>
             </div>
             <div class="col-md-3 cardfix2" style="">
-                <div class="interCard"><img class="img-fluid cardfix mb-lg-0"
+                <div [routerLink]="['/list','banos']" class="interCard"><img class="img-fluid cardfix mb-lg-0"
                         src="../../../assets/img/catalogo-yoga/baño.jpg" alt="" />
                     <div class="txt-img">
-                        <p class="txtp">Baños postparto </p>
+                        <p class="txtp">Baños Posparto </p>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 cardfix2" style="">
-                <div class="interCard"><img class="img-fluid cardfix mb-lg-0"
+                <div [routerLink]="['/list','yoga-empresarial']" class="interCard"><img class="img-fluid cardfix mb-lg-0"
                         src="../../../assets/img/catalogo-yoga/yoga-empresa.jpg" alt="" />
                     <div class="txt-img">
-                        <p class="txtp2">Yoga empresarial</p>
+                        <p class="txtp2">Yoga Empresarial</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 cardfix2" style="">
-                <div class="interCard"><img class="img-fluid cardfix mb-lg-0"
+                <div [routerLink]="['/list','prenatal']" class="interCard"><img class="img-fluid cardfix mb-lg-0"
                         src="../../../assets/img/catalogo-yoga/Yoga-para-embarazada.jpg" alt="" />
                     <div class="txt-img">
                         <p class="txtp">Yoga Prenatal </p>
@@ -69,18 +74,18 @@
                 </div>
             </div>
             <div class="col-md-3 cardfix2" style="">
-                <div class="interCard"><img class="img-fluid cardfix mb-lg-0"
+                <div [routerLink]="['/list','kids']" class="interCard"><img class="img-fluid cardfix mb-lg-0"
                         src="../../../assets/img/catalogo-yoga/yoga-para-niños-4-690x414.jpg" alt="" />
                     <div class="txt-img">
-                        <p class="txtp">Yoga para niños </p>
+                        <p class="txtp">Yoga Para Niños </p>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 cardfix2" style="">
-                <div class="interCard"><img class="img-fluid cardfix mb-lg-0"
+                <div [routerLink]="['/list','posparto']" class="interCard"><img class="img-fluid cardfix mb-lg-0"
                         src="../../../assets/img/catalogo-yoga/yogaposnatal.jpg" alt="" />
                     <div class="txt-img">
-                        <p class="txtp">Yoga Postnatal </p>
+                        <p class="txtp">Yoga Posparto </p>
                     </div>
                 </div>
             </div>

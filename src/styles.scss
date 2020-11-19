@@ -10901,8 +10901,14 @@ a.text-black:focus {
 
 .txtp2{
  margin-left: -10% ;
+ user-select: none;
 }
 
+.txtp{
+
+  user-select: none;
+  cursor: pointer;
+ }
 
 
 
