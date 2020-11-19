@@ -4272,6 +4272,7 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+     margin-bottom: 33.5rem !important;
 }
 
 .nav-link {
@@ -7896,6 +7897,7 @@ button.bg-black:focus {
 
 .fixed-top {
   position: fixed;
+ 
   top: 0;
   right: 0;
   left: 0;
@@ -10510,6 +10512,7 @@ a.text-black:focus {
 
   .navbar {
     display: none;
+   
   }
 
   .badge {
@@ -10549,6 +10552,7 @@ a.text-black:focus {
 }
 
 #mainNav {
+ 
   min-height: 3.5rem;
   background-color: #fff;
 }
@@ -10580,6 +10584,7 @@ a.text-black:focus {
   #mainNav {
     padding-top: 0;
     padding-bottom: 0;
+ 
     border-bottom: none;
     background-color: transparent;
     transition: background-color 0.3s ease-in-out;
@@ -10735,7 +10740,7 @@ a.text-black:focus {
 }
 /* Project One  */
 .projects-section {
-  padding: 10rem 0;
+  padding: 9rem 0;
 }
 .projects-section .featured-text {
   padding: 2rem;
@@ -10928,6 +10933,14 @@ a.text-black:focus {
 
 }
 
+.flechaList{
+  
+  margin-left: -7%;
+  margin-top: -7%;
+  margin-bottom: 2%;
+  display: flex;
+  cursor: pointer;
+}
 
 
 
@@ -10948,6 +10961,11 @@ a.text-black:focus {
   .cardfix:hover {
     height: 200px;
   
+  }
+
+  .flechaList{
+    margin-left: 5%;
+    margin-bottom: 5%;
   }
 }
 @media screen and (max-width:1050px){

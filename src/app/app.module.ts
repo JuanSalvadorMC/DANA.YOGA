@@ -22,7 +22,8 @@ import { PostpartoComponent } from './views/list/postparto/postparto.component';
 import { YogaEmpresarialComponent } from './views/list/yoga-empresarial/yoga-empresarial.component';
 import { PrenatalComponent } from './views/list/prenatal/prenatal.component';
 import { KidsComponent } from './views/list/kids/kids.component';
-import { PostnatalComponent } from './views/list/postnatal/postnatal.component';
+
+import { ListComponent } from './views/list/list.component';
 
 
 @NgModule({
@@ -42,7 +43,8 @@ import { PostnatalComponent } from './views/list/postnatal/postnatal.component';
     YogaEmpresarialComponent,
     PrenatalComponent,
     KidsComponent,
-    PostnatalComponent
+ 
+    ListComponent
   ],
   imports: [
     BrowserModule,
